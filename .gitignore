@@ -123,3 +123,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+climate_try1.ipynb
