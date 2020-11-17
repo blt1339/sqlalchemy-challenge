@@ -71,4 +71,15 @@ This project is broken up into the following sections:
     Since the P value is very close to zero this indicates strong evidence against the null hypothisis, so it should be rejected.¶
 
     * Temperature Analysis II
+    A vacation time was chosen to be 12/20/2016 - 12/31/2016.   For this analysis, the dates for a year previous was calculated to then obtain max, min, and average temperatures from exactly a year before our chosen vacation dates.
+
+    Our trip is scheduled for 2016-12-20 to 2016-12-31:
+    We are using the previous year to compare 2015-12-20 to 2015-12-31
+    Maximum Temperature = 79.0
+    Minimum Temperature = 67.0
+    Averge Temperature  = 73.21
+
+    The following chart was created to represent this data:
+![temperature.png](Images/temperature.png)  
+
     * Daily Rainfall Average
