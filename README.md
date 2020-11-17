@@ -7,12 +7,16 @@
 # Project Information
 This project is broken up into the following sections:
 ### Climate Analysis and Exploration
-    This was performed in the jupyter notebook climate.ipynb.  SQLAlchemy create_engine was utilized to connect to hawaii.sqlite data and `automap_base()` to reflect tables into classes with a reference to those classes called `Station` and `Measurement`.
+    This analysiswas performed in the jupyter notebook climate.ipynb.  
+    SQLAlchemy create_engine was utilized to connect to hawaii.sqlite data and `automap_base()`
+    to reflect tables into classes with a reference to those classes called `Station` and `Measurement`.
     * Precipitation Analysis
       The last date in the dataset was obtained and then a date a year previous was calculated using 'relativedelta' from the dateutil library.  All of the precipitation data on or after the previous year calculated date and the following chart was created:
 ![precipitation.png](Images/precipitation.png)
+    
     The following are the descriptive statistics for the data used to generate this report:
-![describe.png](Images/describes.png)    
+
+![describe.png](Images/describe.png)    
   
     * Station Analysis
     The most active station in the dataset was obtained.   The following are the stations in most active order:
