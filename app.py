@@ -101,16 +101,16 @@ def stations():
     session = Session(engine)
 
     # Query all passengers
-    results = session.query(Station.id,Station.station,Station.name,\
+    results = session.query(Station.station,Station.name,\
                             Station.latitude,Station.longitude,Station.elevation).all()
     session.close()
 
     # Create a dictionary from the row data and append to a list of all_stations
     all_stations = []
-    for id,station,name,latitude,longitude,elevation in results:
+    for station,name,latitude,longitude,elevation in results:
         station_dict = {}
-        station_dict["id"] = name
         station_dict["station"] = station
+        station_dict["name"] = name
         station_dict["latitude"] = latitude
         station_dict["longitude"] = longitude
         station_dict["elevation"] = elevation
