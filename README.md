@@ -47,8 +47,8 @@ SQLAlchemy create_engine was utilized to connect to hawaii.sqlite data and `auto
   
 
 ### Climate App
-    This logic is in the python program app.py.   This program can be executed using python. The welcome page can be accessed via http://127.0.0.1:5000/
-    The following routes are available for this app:
+This logic is in the python program app.py.   This program can be executed using python. The welcome page can be accessed via http://127.0.0.1:5000/
+The following routes are available for this app:
     
 | Route                               | Description    
 | ----------------------------------- |-------------------- |
