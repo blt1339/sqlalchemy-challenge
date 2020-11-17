@@ -83,3 +83,16 @@ This project is broken up into the following sections:
 ![temperature.png](Images/temperature.png)  
 
     * Daily Rainfall Average
+    The dates a year previous to your vacation of 12/20/2016 - 12/31/2016 was utilzed to calculate the total precipitation by station for those dates:
+ |   	|Station	|Name	|Latitude	|Longitude	|Elevation	|Total Precipitation|
+ |------|-----------|-------|-----------|-----------|-----------|-------------------|
+|0	|USC00516128	|MANOA LYON ARBO 785.2, HI US	|21.33310	|-157.80250	|152.4	|6.34|
+|1	|USC00519281	|WAIHEE 837.5, HI US	|21.45167	|-157.84889	|32.9	|3.03|
+|2	|USC00513117	|KANEOHE 838.1, HI US	|21.42340	|-157.80150	|14.6	|1.91|
+|3	|USC00519523	|WAIMANALO EXPERIMENTAL FARM, HI US	|21.33556	|-157.71139	|19.5	|0.96|
+|4	|USC00519397	|WAIKIKI 717.2, HI US	|21.27160	|-157.81680	|3.0	|0.50|
+|5	|USC00514830	|KUALOA RANCH HEADQUARTERS 886.9, HI US	|21.52130	|-157.83740	|7.0	|0.45|
+|6	|USC00517948	|PEARL CITY, HI US	|21.39340	|-157.97510	|11.9	|0.00|
+
+The the max, min, and average temperature was calculated for each date in the vacation regardless of year. (12/20, 12/21, 12/22, 12/23, 12/24, 12/24, 12/26, 12/27, 12/28, 12/29, 12/30, 12/31).  This data is then displayed as a prediction for our vacation days.  The following chart was created:
+![daily-normals.png](Images/daily-normals.png)  
